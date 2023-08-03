@@ -162,7 +162,17 @@ input{
     background-color: var(--mainBorderColor);
     height: 1px;
 }
-
+.image-container {
+    display: flex; /* Use flexbox to arrange images in a row */
+  }
+  
+  .image-container img {
+    max-width: 100px; 
+    margin-right: 10px;
+    margin-left: 10px; 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+  }
 
 @media(max-width:600px){
 
